@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Register</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <!-- User GET, not POST -->
+        <form method="GET">
+            <label>First Name:</label> <input type="text" name="firstname"><br>
+            <label>Last Name:</label> <input type="text" name="lastname"><br>
+            <label>Email:</label> <input type="email" name="email" required><br>
+            <label>Password</label> <input type="password" name="password" min="5"><br>
+            <label>Birthday:</label> <input type="date" name="birthday"><br>
+            <label>Gender:</label><br> 
+                <input type="radio" name="gender" value="male">Male<br>
+                <input type="radio" name="gender" value="female">Female<br>
+                <input type="radio" name="gender" value="other">Other<br>
+            <label>Pets:</label><br>
+                <input type="checkbox" name="cat">Cat<br>
+                <input type="checkbox" name="dog">Dog<br>
+            <label>Cars</label><br>
+                <select name="cars">
+                    <option value="volvo">Volvo</option>
+                    <option value="audi">Audi</option>
+                </select><br>
+            <input type="submit"> <input type="reset">
+        </form>
+    </body>
+</html>

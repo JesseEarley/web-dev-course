@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+ <html class="no-js"> 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>BG Gradient Generator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Background Gradient Generator</h1>
+            <fieldset>
+                <legend>Colors</legend>
+                <label for="color1">Color 1</label>
+                <input type="color" id="color1" name="color1" class="color1" value="#6A0032"><br />
+                <label for="color2">Color 2</label>
+                <input type="color" id="color2" name="color2" class="color2" value="#FFC82E">
+            </fieldset>
+            <fieldset>
+                <legend>Gradient Direction</legend>
+                <input type="radio" id="right" name="direction" value="right" checked><label for="right">Right</label><br />
+                <input type="radio" id="left" name="direction" value="left"><label for="left">Left</label><br />
+                <input type="radio" id="top" name="direction" value="top"><label for="top">Top</label><br />
+                <input type="radio" id="bottom" name="direction" value="bottom"><label for="bottom">Bottom</label>
+            </fieldset>
+            <h2>Current CSS Background</h2>
+            <h3>LINEAR-GRADIENT(TO RIGHT, RGB(106, 0, 50), RGB(255, 200, 46));</h3>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

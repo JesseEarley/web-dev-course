@@ -1,0 +1,27 @@
+html{
+    height: 100%;
+}
+
+body{
+    background: linear-gradient(to right, #6A0032, #FCC82E); /*Fire up Chips!*/
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.container {
+    background: #FFF;
+    border-radius: 0 0 1rem 1rem;
+    margin: 0 auto;
+    padding: 1rem;
+    width: 50%;
+}
+
+fieldset{
+    border: 1px solid #CCC;
+    margin: 1rem auto;
+    width: 50%;
+}
